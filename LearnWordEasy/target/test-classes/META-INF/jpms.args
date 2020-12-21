@@ -1,0 +1,4 @@
+--patch-module
+learnWordEasy=_
+--add-reads
+learnWordEasy=ALL-UNNAMED

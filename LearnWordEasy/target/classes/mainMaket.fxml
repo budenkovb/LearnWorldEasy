@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane prefHeight="459.0" prefWidth="492.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.budenkov.learnWorldEasy.Controllers.mainController">
+   <children>
+      <Pane layoutY="-6.0" prefHeight="668.0" prefWidth="907.0">
+         <children>
+            <TextField fx:id="wordToFind" layoutX="14.0" layoutY="30.0" prefHeight="25.0" prefWidth="242.0" />
+            <Button fx:id="btFind" layoutX="230.0" layoutY="30.0" mnemonicParsing="false" onAction="#onBtn1Click" prefHeight="25.0" prefWidth="26.0" styleClass="find-button" />
+            <WebView fx:id="webView" layoutX="14.0" layoutY="68.0" prefHeight="571.0" prefWidth="882.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
